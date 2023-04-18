@@ -1,0 +1,140 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+# - name: Computer Engineering (Software Engineering) 
+#   icon: fa-graduation-cap
+#   timeframe: 2008 - 2012
+#   institution:
+#     name: GUJARAT TECHNOLOGICAL UNIVERSITY (GTU)
+#     url: "#"
+#   grade: #(optional)
+#     scale: CGPA
+#     achieved: 3.6
+#     outOf: 4
+#   publications: #(optional)
+#   - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#     url: "#"
+#   - title: Fusce eu augue ut odio porttitor pulvinar.
+#     url: "#"
+#   - title: Nullam vitae orci tincidunt purus viverra pulvinar.
+#     url: "#"
+
+
+- name: Computer Systems Technician - Network Systems
+  icon: fa-university
+  timeframe: 2012-2015
+  institution:
+    name: Mohawk College
+    url: "https://www.mohawkcollege.ca/"
+  # grade: #(optional)
+  #   scale: GPA
+  #   achieved: 5
+  #   outOf: 5
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: false
+    collapseAfter: 3
+    courses:
+    - name: Programming Fundamentals with HTML & CSS
+      achieved: 3.80
+      outOf: 4
+    - name: Introduction To Networking and Virtualization
+      achieved: 3.5
+      outOf: 4
+    - name: Fundamentals of UNIX/Linux and Administration
+      achieved: 3.75
+      outOf: 4
+    - name: Microsoft Server Administration
+      achieved: 3.75
+      outOf: 4
+    - name: Network Infrastructure & Wireless technologies
+      achieved: 3.75
+      outOf: 4
+    - name: Cisco Routing and Switching
+      achieved: 3.75
+      outOf: 4
+    - name: Cloud Computing and Infrastrcture 
+      achieved: 3.75
+      outOf: 4
+
+  # publications: #(optional)
+  # - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  #   url: "#"
+  # - title: Fusce eu augue ut odio porttitor pulvinar.
+  #   url: "#"
+  # extracurricularActivities: #(optional)
+  # - Created Database Management System Application during final year Project. 
+  # - Created Projects in HTML/CSS, VUE, React, JavaScript frontend Web Applications.
+
+- name: Bachelor of Computer Engineering
+  icon: fa-graduation-cap
+  timeframe: 2008 - 2012
+  institution:
+    name: GUJARAT TECHNOLOGICAL UNIVERSITY (GTU)
+    url: "https://www.gtu.ac.in/"
+  # grade: #(optional)
+  #   scale: CGPA
+  #   achieved: 3.5
+  #   outOf: 4
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: false
+    collapseAfter: 3
+    courses:
+    - name: Computer Networks and Information Security
+      achieved: 3.80
+      outOf: 4
+    - name: Operating System and Theory of Computation
+      achieved: 3.5
+      outOf: 4
+    - name: Data and File Structure
+      achieved: 3.75
+      outOf: 4
+    - name: Distributed System & Database Management System
+      achieved: 3.75
+      outOf: 4
+    - name: Object Oriented Programming - I/II (C, Python and Java)
+      achieved: 3.75
+      outOf: 4
+    - name: Distributed Computing and Web Application Development
+      achieved: 3.75
+      outOf: 4
+    - name: Cloud Computing
+      achieved: 3.75
+      outOf: 4
+    - name: Artificial Intelligence, Big Data Analytics & Machine Learning
+      achieved: 3.75
+      outOf: 4
+    - name: Mobile Application Development
+      achieved: 3.75
+      outOf: 4
+  # publications: #(optional)
+  # - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  #   url: "#"
+  # - title: Fusce eu augue ut odio porttitor pulvinar.
+  #   url: "#"
+  extracurricularActivities: #(optional)
+  - Created Database Management System Application during final year Project. 
+  - Created Projects in HTML/CSS, VUE, React, JavaScript frontend Web Applications.
+  # - In Robotics Competetion and develop a working prototype of an electric RC Car.
+  # - Arranged RedCross Blood Drive, Active Member of "YUVA Unstoppable" Non-profit Charitable Organization and various cultural event managed and participated. 
+  
+- name: School Certificate
+  icon: fa-school
+  timeframe: 2008
+  institution:
+    name: Swastik Higher Secondary School
+    # url: "https://www.gtu.ac.in/"
+  # grade: #(optional)
+  #   scale: GPA
+  #   achieved: 4.5
+  #   outOf: 5

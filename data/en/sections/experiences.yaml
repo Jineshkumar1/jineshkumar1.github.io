@@ -1,0 +1,65 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Avanade
+    url: "https://www.avanade.com/en-us"
+    location: Seattle, WA, USA
+    # company overview
+    overview: Avanade is a global professional services company providing IT consulting focused on the Microsoft platform. It is a joint venture between Accenture and Microsoft, and today is majority-owned by Accenture. 
+  positions:
+  - designation: Cloud Infrastructure Consultant
+    start: January 2022
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Desiged and Implemented Clients' Cloud Migration journey using best practices from Cloud Adoption Framework.
+    - Worked with Applications Agine deployment team and delivered workload running on Azure VMs/VMSS/AKS through Azure CI/CD Pipelines deployment. 
+    - Configured and implemented Azure Key Vault and Access Policy Management. Worked with Observability and Monitoring through Metrics, Logging, Alerting using Azure Monitor and Application Insight for Azure Resources and took proactive measures to maintain system stability and reliability.
+    - Efficient with Terraform modules , CI/CD Pipelines, Golden Images/Patch Management solutions, Storage Solution and Bash scripting to automate software delivery process from Code Commits to Production deployment
+
+  # - designation: Junior Software Engineer
+  #   start: Nov 2017
+  #   end: Oct 2019
+  #   responsibilities:
+  #   - Implement and test xyz feature for abc tool.
+  #   - Support client for abc tool.
+  #   - Learn k,d,w technology for xyz.
+
+- company:
+    name: Veeam
+    url: "https://www.veeam.com/"
+    location: Columbus, Ohio, United States
+    overview: Veeam is a software company that specializes in backup, disaster recovery, and intelligent data security and management solutions for virtual, physical, and cloud-based workloads. 
+  positions:
+  - designation: Veeam Backup and Replication Engineer 
+    start: April 2019
+    end: January 2022
+    responsibilities:
+    - Handled customer support cases for workload on Cloud or On-Premise using backup solution owned by Veeam 
+    - Primarily technologies worked with Veeam Backup & Replication, Veeam Cloud Connect, VMware, Microsoft Windows Server, Amazon AWS, Microsoft Azure.
+    - Skills - Backup and Replication , Data Resiliency, Security , Disaster recovery, Site reliability RTO/RPO. 
+
+- company:
+    name: PCM (Now division of Insight)
+    url: "https://investor.insight.com/news-releases/news-release-details/2019/Insight-Enterprises-Completes-Acquisition-of-PCM-Inc/default.aspx"
+    location: El Segundo, California.
+    overview: PCM, Inc. is a Managed Service Provider(MSP) offering Software, Hardware and many other technology products and services to their Customers.
+  positions:
+  - designation: IT Analyst
+    start: January 2017
+    end: March 2019
+    responsibilities:
+    - Manage, support and troulbeshoot any raised error request in NOC Operations Center. 
+    - Have worked directly with many clients on priority bridged calls and assist on performing troubleshooting and resolving ongoing issues.   
+    - Performing root cause analysis(RCA), log diving, change management creation, writing knowledgebase(KB) articles and troubleshooting procedures. 

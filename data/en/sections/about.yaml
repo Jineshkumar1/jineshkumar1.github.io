@@ -1,0 +1,115 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Cloud Infrastructure Consultant
+# your company information
+company:
+  name: AVANADE.
+  url: "https://en.wikipedia.org/wiki/Avanade"
+
+# your resume. this file path should be relative to you "static" directory
+# Dreprecated. Use resourceLinks instead.
+# resume: "files/resume.pdf"
+
+# a summary about you
+summary: 'I am a passionate Cloud Enthusiast working as an **Infrastructure and DevOps Engineer** roles with 7+ years of industry experience. I mainly work with Clients projects in their succesful migration journey towards Cloud. I love to share Blog posts on latest capabilities, development and Key Concepts of Cloud Computing. And sometimes, I work on some fun pet-projects to learn and grow my knolwedge.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "jineshkumar.patel@yahoo.com"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://github.com/jineshkumar1"
+
+- name: Stackoverflow
+  icon: "fab fa-stack-overflow"
+  url: "https://stackoverflow.com/?tab=bounties"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/jineshkumarpatel/"
+
+- name: Twitter
+  icon: "fab fa-twitter"
+  url: "https://twitter.com/JineshkumarP"
+
+- name: Hashnode
+  icon: "fab fa-hashnode"
+  url: "https://blog.jineshkumar.com/"
+
+# - name: Mastadon
+#   icon: "fab fa-mastodon"
+#   url: "#"
+#   rel: "me noopener"
+
+# You can put custom buttons to link your relevant resources.
+# For example, you can put link for your resume.
+resourceLinks:
+- title: "My Resume"
+  url: "files/resume.pdf"
+
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
+badges:
+- type: certification
+  name: Microsoft Certified DevOps Engineer Expert
+  url: "https://www.credly.com/badges/1e120787-734a-4d43-8944-aedea312804e"
+  badge: "https://images.credly.com/size/340x340/images/c3ab66f8-5d59-4afa-a6c2-0ba30a1989ca/CERT-Expert-DevOps-Engineer-600x600.png"
+
+- type: certification
+  name: Microsoft Certified Azure Administrator Associate
+  url: "https://www.credly.com/badges/d4aefe29-0621-494d-8018-b0c77d342343"
+  badge: "https://images.credly.com/size/340x340/images/336eebfc-0ac3-4553-9a67-b402f491f185/azure-administrator-associate-600x600.png"
+
+- type: certification
+  name: Microsoft Certified Security, Compliance, and Identity Fundamentals
+  url: "https://www.credly.com/badges/690a374f-40fb-4a6b-9d08-79df9521e42d"
+  badge: "https://images.credly.com/size/340x340/images/fc1352af-87fa-4947-ba54-398a0e63322e/security-compliance-and-identity-fundamentals-600x600.png"
+
+- type: certification
+  name: AWS Certified Solutions Architect – Associate
+  url: "https://www.credly.com/badges/37b001b8-da45-4282-8d6d-aed2cb0ac9ce"
+  badge: "https://images.credly.com/size/340x340/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png"
+
+- type: certification
+  name: AWS Certified Cloud Practitioner
+  url: "https://www.credly.com/badges/97896eae-f0e1-4d15-bbbd-897c2d545233"
+  badge: "https://images.credly.com/size/340x340/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png"
+
+- type: certification
+  name: HashiCorp Certified Terraform Associate (002)
+  url: "https://www.credly.com/badges/98c0e9bb-a614-4d4d-92d5-0e18b91736e3"
+  badge: "https://images.credly.com/size/340x340/images/99289602-861e-4929-8277-773e63a2fa6f/image.png"
+
+- type: soft-skill-indicator
+  name: Agile Project
+  percentage: 85
+  color: blue
+
+- type: soft-skill-indicator
+  name: Team Work
+  percentage: 90
+  color: yellow
+
+- type: soft-skill-indicator
+  name: Communication
+  percentage: 80
+  color: orange
+
+# you can also provide color code instead of the color name
+# - type: soft-skill-indicator
+#   name: Example 1
+#   percentage: 75
+#   color: "#00adb5"
